@@ -8,5 +8,5 @@ The Projects I have done in the repositories are listed below with their images 
     ![Form Image](https://res.cloudinary.com/arihantcloudinary416/image/upload/v1588359172/My%20Git%20iMages/FormJs_whd54r.png)
 
 2.  A static Movie-Ticket Booking Application using HTML|CSS|Vanilla-JS. Have a look at it  
-    ![Sneak a peak](https://res.cloudinary.com/arihantcloudinary416/image/upload/v1588497292/My%20Git%20iMages/2020-05-03_cazjam.png)
+    ![Sneak a peak](https://res.cloudinary.com/arihantcloudinary416/image/upload/v1588511760/Book_A_ticket_n6nduo.gif)
     -   Used `Local Storage` to store the selected Movie Index ,Price and Seat.
