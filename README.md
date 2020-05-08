@@ -56,3 +56,17 @@ Custom video player using the HTML5 video element and it's JavaScript API with a
 ![Looks Like](https://res.cloudinary.com/arihantcloudinary416/image/upload/v1588698292/2020-05-05_abae7t.png)
 
 <hr>
+
+## Exchange Rate
+
+Select countries to get the exchange rate for a specific amount
+
+## Project Specifications
+
+-   Display UI with 2 select lists for countries and 2 inputs for amounts
+-   Fetch exchange rates from API (https://api.exchangerate-api.com)
+-   Display the values for both countries
+-   Update values on amount change
+-   Swap country rates
+
+![Glance](https://res.cloudinary.com/arihantcloudinary416/image/upload/v1588922515/ExchangeRate_eo2bfd.gif)
