@@ -3,8 +3,9 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <link rel="stylesheet" href="styles.css" />
-        <title>HangMan | Guess it right or Die</title>
+        <title>Hangman | Guess it right or Die</title>
     </head>
     <body>
         <h1>Hangman</h1>
@@ -32,19 +33,23 @@
             <div class="wrong-letters-container">
                 <div id="wrong-letters"></div>
             </div>
+
             <div class="word" id="word"></div>
         </div>
-        <!-- Container for Final Messages -->
+
+        <!-- Container for final message -->
         <div class="popup-container" id="popup-container">
             <div class="popup">
                 <h2 id="final-message"></h2>
                 <button id="play-button">Play Again</button>
             </div>
         </div>
+
         <!-- Notification -->
         <div class="notification-container" id="notification-container">
             <p>You have already entered this letter</p>
         </div>
+
         <script src="script.js"></script>
     </body>
 </html>

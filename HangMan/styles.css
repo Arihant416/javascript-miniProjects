@@ -13,9 +13,11 @@ body {
     margin: 0;
     overflow: hidden;
 }
+
 h1 {
     margin: 20px 0 0;
 }
+
 .game-container {
     padding: 20px 30px;
     position: relative;
@@ -23,12 +25,14 @@ h1 {
     height: 350px;
     width: 450px;
 }
+
 .figure-container {
     fill: transparent;
     stroke: #fff;
     stroke-width: 4px;
     stroke-linecap: round;
 }
+
 .figure-part {
     display: none;
 }
@@ -45,6 +49,7 @@ h1 {
 .wrong-letters-container p {
     margin: 0 0 5px;
 }
+
 .wrong-letters-container span {
     font-size: 24px;
 }
@@ -75,20 +80,22 @@ h1 {
     bottom: 0;
     left: 0;
     right: 0;
+    /* display: flex; */
     display: none;
-    /* display: none; */
     align-items: center;
     justify-content: center;
 }
+
 .popup {
-    background-color: #2980b9;
+    background: #2980b9;
     border-radius: 5px;
     box-shadow: 0 15px 10px 3px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
 }
+
 .popup button {
-    cursor: pointers;
+    cursor: pointer;
     background-color: #fff;
     color: #2980b9;
     border: 0;
@@ -100,6 +107,7 @@ h1 {
 .popup button:active {
     transform: scale(0.98);
 }
+
 .popup button:focus {
     outline: 0;
 }
