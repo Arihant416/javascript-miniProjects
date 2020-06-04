@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #ffefea;
+    background: teal;
     font-family: 'Lato', sans-serif;
     min-height: 100vh;
     margin: 0;
@@ -22,7 +22,7 @@ h1 {
 
 .btn {
     cursor: pointer;
-    background-color: darksalmon;
+    background-color: black;
     border: 0;
     border-radius: 4px;
     color: #fff;
@@ -50,11 +50,11 @@ select:focus {
     position: absolute;
     top: 30%;
     left: 50%;
-    transform: translate(-50%, 0);
-    background-color: #333;
+    transform: translate(-50%, -800px);
+    background-color: #137;
     color: #fff;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: all 1s ease-in-out;
 }
 
@@ -63,10 +63,10 @@ select:focus {
 }
 
 .text-box select {
-    background-color: darksalmon;
+    background-color: teal;
     border: 0;
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
     height: 30px;
     width: 100%;
 }
@@ -118,7 +118,7 @@ main {
 }
 
 .box .info {
-    background-color: darksalmon;
+    background-color: black;
     color: #fff;
     font-size: 18px;
     letter-spacing: 1px;
